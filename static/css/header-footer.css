@@ -2,6 +2,8 @@
 
 :root {
   --shadow: 2px 3px 28px -8px rgba(3, 255, 254, 0.75);
+  --primary: #03fffe;
+  --secondary: #1e92fb;
 }
 
 /* header */
@@ -32,14 +34,14 @@ img {
   max-width: 20px;
   left: 115px;
   top: 15px;
-  color: #1e92fb;
+  color: var(--secondary);
   font-weight: 700;
 }
 .verified {
   position: absolute;
   left: 200px;
   top: 12px;
-  color: #03fffe;
+  color: var(--primary);
 }
 
 a.option2 {
@@ -47,7 +49,7 @@ a.option2 {
   left: 26%;
   top: 23px;
   text-decoration: none;
-  color: #03fffe;
+  color: var(--primary);
   text-shadow: 1px 2px 7px #03ffff54;
 }
 
@@ -56,7 +58,7 @@ a.option3 {
   left: 35%;
   top: 23px;
   text-decoration: none;
-  color: #03fffe;
+  color: var(--primary);
   text-shadow: 1px 2px 7px #03ffff54;
 }
 
@@ -65,7 +67,7 @@ a.option4 {
   left: 44%;
   top: 23px;
   text-decoration: none;
-  color: #03fffe;
+  color: var(--primary);
   text-shadow: 1px 2px 7px #03ffff54;
 }
 
@@ -74,7 +76,7 @@ a.option5 {
   left: 54%;
   top: 23px;
   text-decoration: none;
-  color: #03fffe;
+  color: var(--primary);
   text-shadow: 1px 2px 7px #03ffff54;
 }
 
@@ -83,7 +85,7 @@ a.option6 {
   left: 65%;
   top: 23px;
   text-decoration: none;
-  color: #03fffe;
+  color: var(--primary);
   text-shadow: 1px 2px 7px #03ffff54;
 }
 
@@ -101,7 +103,7 @@ button {
 }
 
 a:hover {
-  color: #1e92fb;
+  color: var(--secondary);
 }
 
 .link {
@@ -116,7 +118,7 @@ a:hover {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #1e92fb;
+  background: var(--secondary);
   transition: width 0.5s ease;
   -webkit-transition: width 0.5s ease;
 }
@@ -124,17 +126,17 @@ a:hover {
 .link:hover:after {
   width: 100%;
   left: 0;
-  background: #1e92fb;
+  background: var(--secondary);
 }
 
 .btn-default {
   letter-spacing: 1px;
   line-height: 15px;
-  border: 4px solid #1e92fb;
+  border: 4px solid var(--secondary);
   padding: 2px;
   border-radius: 40px;
   background: transparent;
-  background-color: #1e92fb;
+  background-color: var(--secondary);
   transition: all 0.3s ease 0s;
   color: white;
   font-weight: 650;
@@ -146,7 +148,7 @@ a:hover {
 }
 
 .fa-phone-alt {
-  color: #03fffe;
+  color: var(--primary);
 }
 
 .header {
@@ -174,7 +176,7 @@ a:hover {
   max-width: 20px;
   left: 5rem;
   top: 20px;
-  color: #1e92fb;
+  color: var(--secondary);
   font-weight: 700;
 }
 
@@ -182,7 +184,7 @@ a:hover {
   position: absolute;
   left: 9.5rem;
   top: 13px;
-  color: #03fffe;
+  color: var(--primary);
 }
 
 .nav-toggle {
@@ -190,7 +192,7 @@ a:hover {
 
   top: 26px;
   width: 70px;
-  color: #1e92fb;
+  color: var(--secondary);
   padding: 0;
   border: none;
   background: none;
@@ -201,7 +203,7 @@ a:hover {
   z-index: 1;
   width: 250px;
   height: 650px;
-  background-color: #1e92fb;
+  background-color: var(--secondary);
   right: 0;
 }
 
@@ -249,7 +251,7 @@ a:hover {
 }
 
 .link-mob:hover {
-  color: #03fffe;
+  color: var(--primary);
 }
 
 .header-mob {
@@ -274,7 +276,7 @@ a:hover {
   bottom: 24px;
   height: 30%;
   width: 100%;
-  background-color: #1e92fb;
+  background-color: var(--secondary);
 }
 
 .foot-img {
@@ -308,7 +310,7 @@ a:hover {
 }
 
 .join {
-  color: #03fffe;
+  color: var(--primary);
 }
 
 .cont {
@@ -379,7 +381,7 @@ a:hover {
 }
 
 .footlin:hover {
-  color: #03fffe;
+  color: var(--primary);
 }
 
 .address {
@@ -395,7 +397,7 @@ a:hover {
   right: 13.2rem;
   top: 7rem;
   font-size: small;
-  color: #03fffe;
+  color: var(--primary);
   font-weight: 650;
 }
 
@@ -428,7 +430,7 @@ a:hover {
   bottom: 24px;
   height: 30%;
   width: 100%;
-  background-color: #1e92fb;
+  background-color: var(--secondary);
 }
 
 .foot-img-mob {
@@ -465,7 +467,7 @@ a:hover {
 }
 
 .join-mob {
-  color: #03fffe;
+  color: var(--primary);
 }
 
 .cont-mob {
@@ -548,7 +550,7 @@ a:hover {
   right: 1.4rem;
   top: 7rem;
   font-size: 8px;
-  color: #03fffe;
+  color: var(--primary);
   font-weight: 650;
 }
 
@@ -589,4 +591,5 @@ a:hover {
     display: block !important;
   }
 }
+
 
